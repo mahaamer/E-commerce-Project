@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/.../6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link  rel="stylesheet" href="project.css">
+ 
+    
+</head>
+<body>
+    <header> 
+       
+            <a href="#"><img class="logo" src="beauty.png" width="90px" height=80px></a>
+        
+        <nav>
+            <ul class="links">
+                <li><a  class="aactive" href="project.html" target="_blank">Home</a></li>
+                <li><a href="about.html" target="_blank">About</a></li>
+                <li><a href="contact.html" target="_blank">Contact Us</a></li>
+                <li class="cart"><a href="cart.html" target="_blank"><img src="shopping-bag-line.png"><span>0</span></a></li>
+                <li><i class="fa-thin fa-bag-shopping"></i></li>
+
+            </ul>
+        </nav>
+    </header>
+    <br><br>
+    
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+        
+        <img src="img (1).jpg" style="width:100%" height="450px">
+        
+    </div>
+
+    <div class="mySlides fade">
+
+        <img src="img (3).jpg"  style="width:100%" height="450px">
+       
+    </div>
+
+    <div class="mySlides fade">
+        
+        <img src="img (4).jpg"  style="width:100%" height="450px">
+
+    </div>
+<div class="mySlides fade">
+   
+    <img src="img (5).jpg" style="width:100%" height="450px">
+    
+</div>
+
+    <!-- Next and previous buttons -->
+   
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+</div>
+
+<br>
+
+
+
+
+
+
+<div class="products">
+ <div class="fe-box">
+    <img src="features/f1.png" alt="">
+    <h6> Online Order</h6>
+ </div>
+
+<div class="fe-box">
+    <img src="features/f2.png" alt="">
+    <h6> Free Shipping</h6>
+</div>
+<div class="fe-box">
+    <img src="features/f3.png" alt="">
+    <h6> Save Money</h6>
+</div>
+<div class="fe-box">
+    <img src="features/f4.png" alt="">
+    <h6> Promotions</h6>
+</div>
+<div class="fe-box">
+    <img src="features/f5.png" alt="">
+    <h6> Happy Sell</h6>
+</div>
+</div>
+ <br>
+
+<!-- ------------------------------------------------------------- -->
+<h2 class="neww"> Products </h2>
+<div class="productt"> 
+<div id="myBtnContainer">
+    <button class="btn" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('hair')"> Hair Care</button>
+    <button class="btn" onclick="filterSelection('nail')"> Nail Care</button>
+    <button class="btn" onclick="filterSelection('beauty')"> Cosmetics</button>
+    
+</div>
+
+<!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+<section id="product1" class="section-p1">
+    
+  <div class="container">
+
+    <div class="pro-container">
+
+
+       <div class="filterDiv pro hair ">
+        <div class="hair">
+            <img src="hair/Argan Oil.jpg">
+            <div class="des">
+                <span> ARGAN </span>
+                <h5 class="name"> Argan Oil Treatment </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4 class="price">620 L.E</h4>
+            </div>
+            <a href="#" class="btn-cart" ><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+       </div>
+
+       <div class="filterDiv pro hair">
+        <div class="hair">
+            <img src="hair/dryer.jpg">
+            <div class="des">
+                <span> BRUN </span>
+                <h5> Dryer 1200 watt </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4> 1200 L.E</h4>
+            </div>
+            <a href="#" class="btn-cart" ><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+       </div>
+
+       <div class="filterDiv pro hair">
+        <div class="hair">
+            <img src="hair/brushes.jpg">
+            <div class="des">
+                <span> MONJO </span>
+                <h5> Set Of Brushes </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>250 L.E</h4>
+            </div>
+            <a href="#" class="btn-cart"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+       </div>
+
+       <div class="filterDiv pro hair">
+        <div class="hair">
+            <img src="hair/shampoo.jpg">
+            <div class="des">
+                <span> BIOLABS </span>
+                <h5> HAIR Shampoo </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>450 L.E</h4>
+            </div>
+            <a href="#" class="btn-cart"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+       </div>
+
+
+       <div class="filterDiv pro nail">
+        <div class="nail">
+            <img src="Nail/Nail Serum.jpg">
+            <div class="des">
+                <span> Novia</span>
+                <h5> NAIL Serum (zero sodium chloride) </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>250 L.E</h4>
+            </div>
+            <a href="#" class="btn-cart"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+       </div>
+
+       <div class="filterDiv pro nail">
+    <div class="nail">
+        <img src="Nail/Nail Builder.jpg">
+        <div class="des">
+            <span> NAILS</span>
+            <h5> 30 sets of builders </h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>250 L.E</h4>
+        </div>
+        <a href="#" class="btn-cart"><i class="fal fa-shopping-cart cart"></i></a>
+    </div>
+       </div>
+
+       <div class="filterDiv pro nail">
+    <div class="nail">
+        <img src="Nail/Nail Gel.jpg">
+        <div class="des">
+            <span> Novia</span>
+            <h5> NAIL Gel (7 days) </h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4> 800 L.E</h4>
+        </div>
+        <a href="#" class="btn-cart"><i class="fal fa-shopping-cart cart"></i></a>
+    </div>
+       </div>
+
+
+    <div class="filterDiv pro beauty">
+        <div class="beauty">
+            <img src="beauty/brushes.jpg">
+            <div class="des">
+                <span> Mac</span>
+                <h5> Set Of Brushes (15 pcs) </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4> 500 L.E</h4>
+            </div>
+            <a href="#" class="btn-cart"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+    </div>
+
+    <div class="filterDiv pro beauty">
+        <div class="beauty">
+            <img src="beauty/eyeshadow.jpg">
+            <div class="des">
+                <span> HUDABEAUTY</span>
+                <h5> Palette of eyeshadow (16 colors) </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4> 700 L.E</h4>
+            </div>
+            <a href="#" class="btn-cart"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+    </div>
+
+    <div class="filterDiv pro beauty">
+        <div class="beauty">
+            <img src="beauty/liplinear.jpg">
+            <div class="des">
+                <span> HUDABEAUTY</span>
+                <h5> Lip Liner </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4> 200 L.E</h4>
+            </div>
+            <a href="" class="btn-cart"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+    </div>
+    
+</div>
+</div>
+    
+   
+</section>
+
+</div>
+
+
+<footer class="section-p1">
+  <div class="col">
+    <a href="#"><img  class="logo" src="beauty.png" width="100px" height="100px"></a>
+    <h4> Contact </h4>
+    <p> <strong>Address:</strong> Shibin Elkawm ,ELMinufia ,Egypt</p>
+    <p> <strong>Phone:</strong> +20 1003 765 461 </p>
+    <p> <strong>Hours:</strong> 10:00-18:00 ,Mon-Sat</p>
+    <div class="follow">
+        <h4>follow us</h4>
+        <div class="icon"> 
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+        <div class="copyright">
+            <p> &copy; 2022 , MahaAmer - Nymph (Beauty Salon) </p>
+        </div>
+    </div>
+  </div>
+  <div class="col">
+    <h4>About</h4>
+    <a href="#"> About Us</a>
+    <a href="#"> Delivery Information</a>
+    <a href="#"> Privacy Policy</a>
+    <a href="#"> Terms & Conditions</a>
+    <a href="contact.html"> Contact Us</a>
+  </div>
+    <div class="col">
+        <h4>My Account </h4>
+        <a href="#"> Sign In</a>
+        <a href="#"> View Cart</a>
+        <a href="#"> My WishList</a>
+        <a href="#"> Track my order</a>
+        <a href="#"> Help</a>
+    </div>
+    <div class="col install">
+            <h4>Install App</h4>
+            <p> From App Store or Google Play</p>
+            <div class="row">
+                <img src="pay/app.jpg">
+                <img src="pay/play.jpg">
+              
+            </div>
+            <p> Secured Payment Gateways</p>
+            <img src="pay/pay.png">
+    </div>
+
+    
+</footer>
+
+    <script src="project.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html>
